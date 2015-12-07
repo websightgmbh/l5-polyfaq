@@ -1,0 +1,21 @@
+{
+  "name": "websight/l5-polyfaq",
+  "description": "Simple Laravel 5 FAQs for your site wired with polymorphic relations",
+  "require": {
+    "illuminate/support": "~5.1"
+  },
+  "license": "MIT",
+  "keywords": ["laravel", "laravel5", "faq"],
+  "homepage": "https://github.com/websightgmbh/l5-polyfaq",
+  "authors": [
+    {
+      "name": "Cedric Ziel",
+      "email": "ziel@websight.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Websight\\Polyfaq\\": "src/Polyfaq/"
+    }
+  }
+}
