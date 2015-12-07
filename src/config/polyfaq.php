@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * PolyFAQ configuration
+ */
+
+return [
+
+];
