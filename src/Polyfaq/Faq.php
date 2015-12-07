@@ -12,11 +12,18 @@ use Illuminate\Database\Eloquent\Model;
  * @property \Carbon\Carbon $updated_at
  * @property string $title
  * @property string $content
- *
  * @package Websight\Polyfaq
  */
 class Faq extends Model
 {
+
+    /**
+     * @var array
+     */
+    protected $fillable = [
+        'title',
+        'content'
+    ];
 
     /**
      * Returns the associated FAQ items for that item
