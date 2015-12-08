@@ -18,6 +18,7 @@ class CreateFaqsTable extends Migration
 
             $table->string('title')->default('');
             $table->text('content')->default('');
+            $table->integer('sorting')->default(0);
 
             $table->morphs('faqable');
 
