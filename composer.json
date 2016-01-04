@@ -2,8 +2,8 @@
   "name": "websight/l5-polyfaq",
   "description": "Simple Laravel 5 FAQs for your site wired with polymorphic relations",
   "require": {
-    "illuminate/support": "~5.1",
-    "illuminate/database": "~5.1"
+    "illuminate/support": "~5.1 || ~5.2",
+    "illuminate/database": "~5.1 || ~5.2"
   },
   "license": "MIT",
   "keywords": ["laravel", "laravel5", "faq"],
